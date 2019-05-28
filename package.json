@@ -1,7 +1,7 @@
 {
-  "name": "@kamil-dyrek/vue-time-select",
+  "name": "vue-time-select",
   "description": "Vue component for easy time selecting, especially on touch screens, with keyboard support.",
-  "version": "1.0.5",
+  "version": "0.8.1",
   "main": "./dist/vueTimeSelect.common.js",
   "keywords": [
     "vue",
@@ -20,7 +20,7 @@
   "author": "Kamil Dyrek <kamil@dyrek.eu>",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/kamildyrek/vue-time-select"
+    "url": "https://github.com/smbdelse/vue-time-select"
   },
   "private": false,
   "scripts": {

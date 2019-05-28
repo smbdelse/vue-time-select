@@ -13,12 +13,12 @@ You can check working example on CodePen: [https://codepen.io/pen/oRPvoX](https:
  
 To install package run:  
 ```
-npm i @kamil-dyrek/vue-time-select
+npm i vue-time-select
 ```  
 
 You can also use it as plugin directly in browser  
 ```
-<script src="https://unpkg.com/@kamil-dyrek/vue-time-select/dist/vueTimeSelect.umd.min.js"></script>
+<script src="https://unpkg.com/vue-time-select/dist/vueTimeSelect.umd.min.js"></script>
 ```
 
 
@@ -54,3 +54,5 @@ Also, there are optional max-value and min-value props (set in seconds):
 <time-select v-model="timeFrom" :max-value="timeTo"></time-select>
 <time-select v-model="timeTo" :min-value="timeFrom"></time-select>
 ```
+
+I hope you'll build something great with it! :)
