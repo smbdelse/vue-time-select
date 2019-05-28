@@ -1,0 +1,74 @@
+{
+  "name": "@kamil-dyrek/vue-time-select",
+  "description": "Vue component for easy time selecting, especially on touch screens, with keyboard support.",
+  "version": "1.0.5",
+  "main": "./dist/vueTimeSelect.common.js",
+  "keywords": [
+    "vue",
+    "timepicker",
+    "time-picker",
+    "hour",
+    "time-range"
+  ],
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
+  "author": "Kamil Dyrek <kamil@dyrek.eu>",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/kamildyrek/vue-time-select"
+  },
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "bundle": "vue-cli-service build --target lib --name vueTimeSelect ./src/components/vue-time-select.vue",
+    "lint": "vue-cli-service lint"
+  },
+  "vue": {
+    "css": {
+      "extract": false
+    }
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.7.0",
+    "@vue/cli-plugin-eslint": "^3.7.0",
+    "@vue/cli-service": "^3.7.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
