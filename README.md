@@ -1,3 +1,4 @@
+![Screenshot showing a a time-select component](https://raw.githubusercontent.com/smbdelse/vue-time-select/master/time.jpg)
 
 # About
 
